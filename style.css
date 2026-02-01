@@ -1,0 +1,67 @@
+/* Body setup */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#2c8a06, #b2de44);
+  font-family: Arial, sans-serif;
+}
+
+/* Container to stack GIF above card */
+.container {
+  text-align: center;
+}
+
+/* GIF styling */
+.hero-gif {
+  width: 220px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Card styling */
+.card {
+  display: inline-block;
+  background: rgb(20, 88, 8);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+.card h1 {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+/* Buttons container */
+.buttons {
+  position: relative;
+  height: 80px;
+}
+
+/* Buttons styling */
+button {
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#yesBtn {
+  background: #4caf50;
+  color: white;
+  margin-right: 20px;
+}
+
+#noBtn {
+  background: #f44336;
+  color: white;
+  position: absolute;
+}
